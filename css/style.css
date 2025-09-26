@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --white: #ffffff;
+  --yellow: #fed32f;
+  --orange: #e58220;
+  --ltGray: #999999;
+  --drkGray: #222429;
+  --navy: #121417;
+  --black: #000000;
+  --font: "Overpass", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--ltGray);
+}
+
+h1 {
+  color: var(--white);
+}
+
+form {
+  background: var(--drkGray);
+  max-width: 425px;
+  margin: 2em auto;
+  padding: 3em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for rating buttons */
+.rating-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+/* Individual rating buttons (circular) */
+.rating-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--navy);
+  color: var(--white);
+  font-family: var(--font);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-btn:hover {
+  background-color: var(--orange);
+  color: var(--drkGray);
+}
+
+.rating-btn:focus,
+.rating-btn.selected {
+  background-color: var(--white);
+  color: var(--drkGray);
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: var(--orange);
+  color: var(--drkGray);
+  margin-top: 1.5em;
+  cursor: pointer;
+  font-family: var(--font);
+  text-transform: uppercase;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: none;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
+}
