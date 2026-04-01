@@ -22,10 +22,10 @@ An interactive rating component built with vanilla HTML, CSS, and JavaScript. Us
 
 ## 🖼️ Screenshots
 
-**Rating Card**
+**Rating Card**  
 <img width="459" height="463" alt="Screenshot 2026-04-01 at 3 38 31 PM" src="https://github.com/user-attachments/assets/325e46b6-902e-4021-ac63-852ab4942c36" />
 
-**Thank You Page**
+**Thank You Page**  
 <img width="475" height="541" alt="Screenshot 2026-04-01 at 3 38 40 PM" src="https://github.com/user-attachments/assets/770eaeeb-3a96-488a-9889-1f45f4c00908" />
 
 ---
